@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;1,300&family=Kanit&family=Poppins:ital@0;1&display=swap');
+
+:root {
+    --main-color: #232946;
+    --secondary-color: #b8c1ec; /*light Purple*/
+    --box-hover: #f8e3e7;
+    --button-hover: #fffffe;
+    --button-color: #eebbc3;
+    --button-text: #232946;
+    --header-color: #121629;
+    --header-color: #455292;
+    --main-text: #3F3B6C;
+    --second-text: #9F73AB;
+    --third-text: #624F82;
+    
+    --main-font: 'Exo 2', sans-serif;
+    --secondary-font: 'Poppins', sans-serif;;
+}
+
+* {
+    background-color: var(--secondary-color);
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.errPng {
+    margin-top: 60px;
+    height: 150px;
+    width: 150px;
+}
+
+.error-div {
+    padding: 0 30px;
+    margin: auto;
+    text-align: center;
+}
+
+h1, strong {
+    font-family: var(--main-font);
+}
+
+
+h1 {
+    margin-top: -40px;
+    margin-bottom: 25px;
+}
+
+#oops{
+    font-size: 230px;	
+    color: var(--main-color);
+}
+
+#empty-cart {
+    padding-top: 50px;
+    font-size: 180px;
+    color: var(--main-color);
+}
+
+strong {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--main-text)
+}
+
+.error-msg {
+    font-family: var(--secondary-font);
+    color: var(--second-text);
+}
+
+.try-again {
+    margin-top: -20px;
+}
+
+.btn {
+    min-width: 2.25rem;
+    min-height: 2.25rem;
+    border-radius: 9999px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 0.875;
+    border: none;
+    color: var(--button-text);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: var(--button-color);
+}
+
+.btn:hover, .cart-remove:hover  {
+    background-color: var(--button-hover);
+}

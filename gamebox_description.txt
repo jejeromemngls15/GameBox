@@ -1,0 +1,1 @@
+GameBox is a simple online game store developed using Java. This project is a requirement for our Application Development course and is a collaboration with Nathaniel Ken Aquino, Kristel Lenci Cruz, and Luke Terrel Santibañez.
